@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent">
+    <LinearLayout
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+	    <ImageView
+   			android:text="logoTipo"
+			android:layout_marginRight="10dp"
+  			android:id="@+id/logo" 
+       		android:src="@drawable/logo"
+       		android:layout_width="70dp" 
+       		android:layout_height="70dp">
+       	</ImageView>
+    	<LinearLayout
+			android:orientation="vertical" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content">
+		    <TextView 
+		    	android:text="Cadastro Produto" 
+		    	android:id="@+id_editar_produto/tituloTela" 
+		    	android:layout_width="fill_parent" 
+		    	android:layout_height="wrap_content"
+		        android:gravity="center">
+		    </TextView>
+    	    <TextView 
+		    	android:text="subtitulo" 
+		    	android:id="@+id_editar_produto/subTitulo" 
+		    	android:layout_width="fill_parent" 
+		    	android:layout_height="wrap_content"
+		        android:gravity="center">
+		    </TextView>
+		</LinearLayout>	    
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+	    <ImageView
+    		android:text="iconFavorite"
+   			android:id="@+id_editar_produto/iconFavorite" 
+   			android:src="@drawable/favorito_off"
+        	android:layout_marginLeft="5dp"
+        	android:layout_width="45dp" 
+        	android:layout_height="50dp">
+        </ImageView>
+   		<ImageView
+    		android:text="iconPhoto"
+   			android:id="@+id_editar_produto/iconPhoto" 
+   			android:src="@drawable/photo"
+        	android:layout_marginLeft="5dp"
+        	android:layout_width="45dp" 
+        	android:layout_height="50dp">
+        </ImageView>
+	    <Button 
+	    	android:text="Comparar" 
+	    	android:id="@+id_editar_produto/btSalvar" 
+        	android:layout_marginLeft="10dp"
+        	android:layout_width="210dp" 
+	    	android:layout_height="50dp">
+	    </Button>
+	
+	</LinearLayout>
+    
+    <LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" >
+
+		    <TextView 
+		    	android:text="Descrição" 
+		    	android:id="@+id_editar_loja/textView1" 
+		    	android:layout_width="wrap_content" 
+		    	android:layout_height="wrap_content">
+		    </TextView>
+		    
+		    <EditText 
+		    	android:id="@+id_editar_produto/txtDescricao" 
+		    	android:layout_width="fill_parent" 
+		    	android:layout_height="wrap_content">
+		    </EditText>
+		    
+		    <TextView 
+		    	android:text="Preço" 
+		    	android:id="@+id_editar_produto/textView2" 
+		    	android:layout_width="wrap_content" 
+		    	android:layout_height="wrap_content">
+		    </TextView>
+		    
+		    <EditText 
+		    	android:id="@+id_editar_produto/txtPreco" 
+		    	android:inputType="number"
+		    	android:layout_width="fill_parent" 
+		    	android:layout_height="wrap_content">
+		    </EditText>
+	   		
+	   		<ImageView
+	   			android:text="foto"
+	   			android:id="@+id_editar_produto/foto" 
+	       		android:src="@drawable/no_foto"
+	       		android:layout_width="fill_parent" 
+	       		android:layout_height="fill_parent"
+	        	android:gravity="center">
+	       	</ImageView>
+		
+		</LinearLayout>
+	
+	</LinearLayout>
+
+</LinearLayout>

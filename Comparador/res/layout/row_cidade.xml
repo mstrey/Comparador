@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+    	<ImageView
+     		android:text="iconFavorite"
+			android:layout_marginRight="5dp"
+    		android:id="@+id_cidade/iconFavorite" 
+         	android:gravity="center"
+         	android:layout_width="25dp" 
+         	android:layout_height="30dp"/>
+
+    	<TextView 	
+    		android:text="UF" 
+        	android:id="@+id_cidade/txtUF" 
+         	android:gravity="center_vertical"
+        	android:layout_width="25dp" 
+	       	android:layout_height="30dp" />
+
+    	<TextView 	
+    		android:text="Nome" 
+        	android:id="@+id_cidade/txtNome" 
+         	android:gravity="center_vertical|left"
+        	android:layout_width="220dp" 
+        	android:layout_height="30dp" /> 
+    
+</LinearLayout>

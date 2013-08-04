@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  	xmlns:android="http://schemas.android.com/apk/res/android" 
+  	android:orientation="horizontal" 
+  	android:layout_width="fill_parent" 
+  	android:layout_height="fill_parent">
+
+	<LinearLayout 
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+		<ImageView
+   			android:text="foto"
+   			android:id="@+id_loja/foto" 
+       		android:src="@drawable/no_foto"
+       		android:layout_marginRight="5dp"
+       		android:layout_width="45dp" 
+       		android:layout_height="50dp">
+    	</ImageView>
+    	<LinearLayout 
+	  		android:orientation="vertical" 
+			android:layout_width="fill_parent" 
+	  		android:layout_height="wrap_content">
+	    	<ImageView
+     			android:text="iconFavorite"
+    			android:id="@+id_loja/iconFavorite" 
+         		android:layout_width="25dp" 
+         		android:layout_height="25dp">
+         	</ImageView>
+    		<ImageView
+     			android:text="iconCompare"
+    			android:id="@+id_loja/iconComparar" 
+         		android:layout_width="25dp" 
+         		android:layout_height="25dp">
+         	</ImageView>
+		</LinearLayout>
+	</LinearLayout>	
+    <LinearLayout 
+  		android:orientation="vertical" 
+  		android:layout_width="fill_parent" 
+  		android:layout_height="wrap_content">
+		<TextView 	
+  			android:text="Nome" 
+  			android:layout_marginRight="5dp"
+      		android:id="@+id_loja/txtNome" 
+      		android:gravity="center_horizontal" 
+      		android:layout_width="220dp" 
+      		android:layout_height="25dp">
+      	</TextView> 
+      	<TextView 	
+  			android:text="local" 
+	  		android:layout_marginRight="5dp"
+      		android:id="@+id_loja/txtLocal" 
+      		android:gravity="center_horizontal" 
+      		android:layout_width="220dp" 
+      		android:layout_height="25dp">
+      	</TextView>
+      	
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  	xmlns:android="http://schemas.android.com/apk/res/android" 
+  	android:orientation="horizontal" 
+  	android:layout_width="fill_parent" 
+  	android:layout_height="fill_parent">
+    <ImageView
+		android:text="Foto"
+		android:id="@+id_preco/foto" 
+   		android:layout_marginRight="5dp"
+   		android:layout_width="45dp" 
+   		android:layout_height="75dp">
+   	</ImageView>
+	<LinearLayout 
+	  	android:orientation="vertical" 
+	  	android:layout_width="150dp" 
+	  	android:layout_height="fill_parent">
+		<TextView 	
+   			android:text="Loja" 
+       		android:layout_marginRight="5dp"
+	  		android:id="@+id_preco/txtLoja" 
+       		android:layout_width="fill_parent" 
+       		android:layout_height="25dp" >
+       	</TextView> 
+		<TextView 	
+   			android:text="Local" 
+       		android:layout_marginRight="5dp"
+	  		android:id="@+id_preco/txtLocal" 
+       		android:layout_width="fill_parent" 
+       		android:layout_height="25dp" >
+       	</TextView> 
+		<TextView 	
+   			android:text="Cidade" 
+       		android:layout_marginRight="5dp"
+	  		android:id="@+id_preco/txtCidade" 
+       		android:layout_width="fill_parent" 
+       		android:layout_height="25dp" >
+       	</TextView> 
+	</LinearLayout>
+	<LinearLayout 
+	  	android:orientation="vertical" 
+	  	android:layout_width="120dp" 
+	  	android:layout_height="fill_parent">
+		<TextView 	
+   			android:text="Preco" 
+       		android:layout_marginRight="5dp"
+	  		android:id="@+id_preco/txtPreco" 
+       		android:layout_width="fill_parent" 
+       		android:layout_height="25dp" >
+       	</TextView> 
+		<TextView 	
+   			android:text="Percentual" 
+       		android:layout_marginRight="5dp"
+	  		android:id="@+id_preco/txtPercentual" 
+       		android:layout_width="fill_parent" 
+       		android:layout_height="25dp" >
+       	</TextView> 
+		<TextView 	
+   			android:text="Tempo" 
+       		android:layout_marginRight="5dp"
+	  		android:id="@+id_preco/txtTempo" 
+       		android:layout_width="fill_parent" 
+       		android:layout_height="25dp" >
+       	</TextView> 
+	</LinearLayout>
+</LinearLayout>

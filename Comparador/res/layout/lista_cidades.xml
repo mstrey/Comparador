@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent">
+    <LinearLayout
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+	    <ImageView
+   			android:text="logoTipo"
+			android:layout_marginRight="10dip"
+  			android:id="@+id/logo" 
+       		android:src="@drawable/cabecalho"
+       		android:layout_width="300dp" 
+       		android:layout_height="70dp"/>
+	</LinearLayout>
+    <TextView
+        android:id="@+id_cidade/tituloTela"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#55006400"
+        android:text="Lista de cidades"
+        android:gravity="center">
+    </TextView>
+       <TextView
+        android:id="@+id_cidade/subTitulo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#aa006400"
+        android:text="Busque uma cidade"
+        android:gravity="center">
+    </TextView>
+   	<LinearLayout
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+	    <EditText 
+	    	android:id="@+id_cidade/txtBusca" 
+	    	android:layout_gravity="top"
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_weight="1">
+	    	<requestFocus />
+	    </EditText>
+	    <ImageButton 
+	    	android:src="@drawable/pesquisar"
+	    	android:id="@+id_cidade/btBuscar" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"></ImageButton>
+	</LinearLayout>
+		
+	<ListView	
+	    android:id="@+id_cidade/lista" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+</LinearLayout>

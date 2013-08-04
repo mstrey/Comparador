@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+
+	<SurfaceView 
+	    android:id="@+id_capture/preview_view"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:layout_centerInParent="true">
+	</SurfaceView>
+
+	<jim.h.common.android.zxinglib.view.ViewfinderView
+		android:id="@+id_capture/viewfinder_view" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:background="#00000000">
+	</jim.h.common.android.zxinglib.view.ViewfinderView>
+
+	<TextView 
+	    android:id="@+id_capture/status_view" 
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_gravity="bottom|center_horizontal"
+		android:background="#00000000" 
+		android:text="Posicione o código de barras no local indicado"
+		android:textColor="#ffffffff" 
+		android:textSize="14sp">
+	</TextView>
+</FrameLayout>

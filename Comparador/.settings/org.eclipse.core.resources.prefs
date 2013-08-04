@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/br/nom/strey/maicon/comparador/DBHelper.java=ISO-8859-1
+encoding//src/br/nom/strey/maicon/comparador/WebService.java=ISO-8859-1
+encoding//src/br/nom/strey/maicon/comparador/comparacao/ComparacaoAdapter.java=ISO-8859-1
+encoding//src/br/nom/strey/maicon/comparador/comparacao/ListarComparacao.java=ISO-8859-1
+encoding//src/br/nom/strey/maicon/comparador/produto/EditarProduto.java=ISO-8859-1
+encoding//src/br/nom/strey/maicon/comparador/produto/ListarProdutos.java=ISO-8859-1
+encoding//src/br/nom/strey/maicon/comparador/produto/ProdutoAdapter.java=ISO-8859-1

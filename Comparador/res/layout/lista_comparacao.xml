@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+    <ImageView
+		android:text="logoTipo"
+		android:layout_marginRight="10dp"
+		android:id="@+id/logo" 
+   		android:src="@drawable/cabecalho"
+   		android:layout_width="fill_parent" 
+   		android:layout_height="70dp">
+	</ImageView>
+	<TextView
+        android:id="@+id_comparacao/tituloTela"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#55006400"
+        android:text="Comparação de produtos"
+        android:gravity="center">
+    </TextView>
+
+	<LinearLayout 
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+		<ImageView
+			android:text="fotoProduto"
+			android:id="@+id_comparacao/foto_produto" 
+	  		android:src="@drawable/no_foto"
+	   		android:layout_marginRight="5dp"
+   			android:layout_width="45dp" 
+   			android:layout_height="50dp">
+		</ImageView>
+		<ImageView
+			android:text="iconFavoritoProduto"
+			android:id="@+id_comparacao/iconFavoritoProduto"
+	       	android:gravity="center" 
+			android:layout_marginRight="5dp"
+			android:layout_width="25dp" 
+			android:layout_height="50dp">
+		</ImageView>
+		<LinearLayout 
+			android:orientation="vertical" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+	       		android:gravity="center">
+			<TextView
+	   			android:id="@+id_comparacao/txtDescProduto"
+	       		android:layout_width="fill_parent"
+	       		android:layout_height="wrap_content">
+	   		</TextView>
+			<TextView
+   				android:id="@+id_comparacao/txtPrecoProduto"
+       			android:layout_width="fill_parent"
+       			android:layout_height="wrap_content">
+   			</TextView>
+	   	</LinearLayout>
+	</LinearLayout>
+	<LinearLayout 
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+	    android:gravity="center">
+		<TextView
+	        android:id="@+id_comparacao/texview1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Ordenar por:">
+	    </TextView>
+   		<Button 
+	    	android:text="Preço" 
+	    	android:id="@+id_comparacao/btPreco" 
+        	android:layout_marginLeft="10dp"
+        	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content">
+	    </Button>
+		<Button 
+	    	android:text="Data" 
+	    	android:id="@+id_comparacao/btData" 
+        	android:layout_marginLeft="10dp"
+        	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content">
+	    </Button>
+			    
+	</LinearLayout>
+	<TextView
+        android:id="@+id_comparacao/txtOrdenacao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#aa006400"
+        android:text="Preços"
+        android:gravity="center">
+    </TextView>
+	<ListView	
+		android:text="listaPrecos"
+	    android:id="@+id_comparacao/lista"
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" />
+	
+</LinearLayout>
